@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+
+body * {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    color: black;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    height: 100vh;
+    width: 100vw;
+    font-size: larger;
+}
+
+.form * {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .5rem;
+    font-size: medium;
+}
+
+.form input {
+    color: black;
+}
+
+.form-buttons {
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.form-buttons button {
+    width: 100%;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+}
