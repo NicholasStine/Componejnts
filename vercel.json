@@ -3,7 +3,10 @@
     "rewrites": [
         {
             "source": "/(.*)",
-            "destination": "."
+            "destination": "index.js"
+        }, {
+            "source": "/views/(.*)",
+            "destination": "/views"
         }
     ]
 }
